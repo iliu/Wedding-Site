@@ -1,0 +1,14 @@
+changelog
+
+new in 1.0.3:
+- minor bugfixes
+- install information
+
+new in 1.0.2:
+- emailaddress validation
+- removed a bug which malformed the xml file when a message contained an '&'
+- filelocking
+
+new in 1.0.1
+- some documentation
+- examplefiles now include descriptive content

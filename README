@@ -1,0 +1,9 @@
+This is the website i created for my wedding. It uses TiddlyWiki as the main framework, then i changed the layout, added plugins etc to make it a complete website. 
+Some of the special features:
+* Tiddlywiki based, with minimal php requirements (php was used to authenticate user name so i can edit and save the tiddlywiki online)
+* Major customization of Tiddlywiki
+* Integrated Tiddlywiki with a message board (the same one used for my website that used hand coded AJAX)
+* Added flash player and built in music control
+
+Links:
+*Tiddlywiki - http://www.tiddlywiki.com/

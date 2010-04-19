@@ -1,0 +1,6 @@
+things to implement in a following version,
+in no particular order:
+
+- better documentation
+- nicer errorpages (when not every field is filled out)
+- use of XSLT

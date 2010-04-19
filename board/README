@@ -1,0 +1,25 @@
+XMBoard v1.0.3
+
+please read the following:
+
+-- php version --
+xmboard is known to have problems with php versions older than 4.0.2
+
+if you have an older version installed and you get an error about a 'wordwrap' statement,
+replace line 117 of print.php with the following:
+		print(nl2br($data), $OUTPUT_LINE_WIDTH, '<BR>', 1);
+  
+-- file permissions --
+You have to set the file permissions as follows,
+else your board won't work.
+
+777 -rwxrwxrwx /data/          (read-, write-, and executable by everyone)
+555 -rw-rw-rw- /data/board.xml (read- and writeable by everyone)
+
+
+-- upgrading --
+when upgrading from <= 1.0.1 you have to remove the file /data/board.xml.out by hand,
+all other files (except the files in /data/) can be overwritten by the new ones.
+
+
+more info can be found at http://xmboard.sourceforge.net
